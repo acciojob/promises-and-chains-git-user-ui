@@ -12,7 +12,7 @@ function handleSubmit(event) {
 
   // Validation
   if (inputAge === "" || inputName === "") {
-    alert("Please enter valid details.");
+    alert(`"Please enter valid details."`);
     return;
   }
 
